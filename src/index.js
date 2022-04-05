@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+//import Message from "./message";
+
 function BasicPropsDemo(props) {
   return <h2>This is a {props.varName}!</h2>;
 }
@@ -52,3 +54,4 @@ function OuterFunctionComponent3() {
 }
 
 ReactDOM.render(<OuterFunctionComponent3 />, document.getElementById("root"));
+//ReactDOM.render(<Message name="Sheldon Cooper"/>, document.getElementById("root"));
